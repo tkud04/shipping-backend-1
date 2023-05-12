@@ -43,15 +43,15 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
-        //mysql://be56739ebacb59:96d0e01a@us-cdbr-east-03.cleardb.com/heroku_b91ba749191c3e8?reconnect=true
+        //mysql://b606339971c4f9:422f7b07@us-cdbr-iron-east-04.cleardb.net/heroku_d7b6092d1397f67?reconnect=true
         'mysql' => [
             'driver' => 'mysql',
             //'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'us-cdbr-east-03.cleardb.com'),
+            'host' => env('DB_HOST', 'us-cdbr-east-04.cleardb.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'heroku_b91ba749191c3e8'),
-            'username' => env('DB_USERNAME', 'be56739ebacb59'),
-            'password' => env('DB_PASSWORD', '96d0e01a'),
+            'database' => env('DB_DATABASE', 'heroku_d7b6092d1397f67'),
+            'username' => env('DB_USERNAME', 'b606339971c4f9'),
+            'password' => env('DB_PASSWORD', '422f7b07'),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'unix_socket' => env('DB_SOCKET', ''),
