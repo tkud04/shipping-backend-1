@@ -1,1 +1,1 @@
-# shipping-backend-1
+# jamo-shipping-backend
